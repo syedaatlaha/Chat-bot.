@@ -1,7 +1,7 @@
 name=input('Enter your Name:')
 cnic=input('Enter your Cnic Number:')
 age=input('Enter your Age')
-    if(age>18)
+    if(age>18):
         	print('Your votes is recorded')
  	else:
     		print('You Are Not Eligible For Vote')
