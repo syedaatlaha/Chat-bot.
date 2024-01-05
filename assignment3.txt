@@ -1,0 +1,18 @@
+name=input('Enter your Name: ')
+maths=eval(input('Enter your marks:'))
+computer=eval(input('Enter your marks:'))
+physics=eval(input('Enter your marks:'))
+Total_marks=maths+computer+physics
+print(Total_marks)
+percentage=(Total_marks/300)*100
+print(percentage)
+if(percentage>100 and percentage<=90):
+  print('A')
+   elif (percentage<90 and percentage=80):
+      print('B')   
+  	elif(percentage<80 and percentage>=70):
+	 	print('C')
+  	elif(percentage<70 and pecentage>60):
+			print('D')
+	else:
+			print('fail')

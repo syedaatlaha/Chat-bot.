@@ -1,0 +1,11 @@
+name=input('HELLO WELCOME TO THE MOVIE WORLD:)')
+print(name)
+genre=input('WHATS YOUR MOIVE MOOD TODAY ')
+    if(genre== "Animated Moive")
+    print('The Super Mario Bro , Migration, Wish')
+    elif(genre=='Horror Moive')
+    print('The Strays','Spirit Doll','Hello Ghost')
+    elif(genre=='Action moive')
+    print('Jhon Wick, The Matrix, Gladiator')
+    else:
+    	print('Try again')
