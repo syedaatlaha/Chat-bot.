@@ -1,12 +1,12 @@
 Temp=eval(input('enter Temperture:'))
 print(Temp)
-    if (Temp<0):
-	  print('freezing')
-	elif(Temp>0 and Temp<=15):
-		print('cold')
-		elif(Temp>17 and Temp<=30):
-			print('moderate')
-		elif(Temp<=30):
-				print('hot')
-				else:
-					print('its hot today')
+if (Temp<0):
+ print('freezing')
+    elif(Temp>0 and Temp<=15):
+print('cold')
+    elif(Temp>17 and Temp<=30):
+print('moderate')
+    elif(Temp<=30):
+print('hot')
+else:
+  print('its hot today')
